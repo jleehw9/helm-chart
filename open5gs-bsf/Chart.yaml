@@ -1,0 +1,17 @@
+apiVersion: v2
+appVersion: latest
+description: >
+  Helm chart to deploy H9 Open5gs BSF service on Kubernetes.
+maintainers:
+- email: jhlee@highway9networks.com
+  name: Jihoon Lee
+name: open5gs-bsf
+version: 2.4.6
+keywords:
+  - ngc
+dependencies:
+  - name: common
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-common
+    version: 2.x.x
